@@ -1,0 +1,159 @@
+/* YOA(author) - RAGEMP.PRO */
+
+* {
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+input {
+    border: 0;
+    outline: none;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+body {
+    font-family: Roboto;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.anim-vert {
+    background-image: url(../img/vert.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 352px;
+    width: 518px;
+    top: 126px;
+    left: 100px;
+    position: absolute;
+}
+
+.anim-vert2 {
+    background-image: url(../img/vert.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 352px;
+    width: 518px;
+    top: 126px;
+    left: 100px;
+    position: absolute;
+}
+
+#reg {
+    display: none;
+}
+
+.auth-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.auth__header {
+    font-weight: 900;
+    font-size: 39px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    color: #534D56;
+    margin-bottom: 40px;
+}
+
+.auth__input {
+    width: 582px;
+    height: 95px;
+    background: #534D56;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 90px;
+
+    margin-bottom: 25px;
+    padding-left: 166px;
+    padding-right: 45px;
+}
+
+.auth-links {
+    display: flex;
+    align-items: center;
+    width: 580px;
+    justify-content: space-between;
+}
+
+.auth-links p {
+    color: #534D56;
+    font-weight: 500;
+    display: flex;
+}
+
+.auth__link {
+    color: #FF7DBB;
+    border-bottom: 1px solid #FF7DBB;
+    width: 76px;
+    display: block;
+    margin-left: 3px;
+    transition: 0.4s;
+}
+
+.auth__link:hover {
+    transition: 0.4s;
+    padding-left: 3px;
+}
+
+.auth-usr {
+    background-image: url(../img/user-ic.svg);
+}
+
+.auth-email {
+    background-image: url(../img/email-ic.svg);
+}
+
+.auth-key {
+    background-image: url(../img/key-ic.svg);
+}
+
+.auth__btn {
+    height: 79px;
+    background: #FF7DBB;
+    border-radius: 15px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 27px;
+    transition: 1s;
+    color: white;
+    font-size: 18px;
+}
+
+.show__me {
+    display: none;
+}
+
+/* YOA - https://ragemp.pro/members/yoa.5637/ */
+
+/* VK - https://vk.com/id656441823 */
+
+/* Discord - henexy#0175 */
