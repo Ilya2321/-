@@ -1,159 +1,347 @@
-/* YOA(author) - RAGEMP.PRO */
-
-* {
-    margin: 0;  
-    padding: 0;
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-input {
-    border: 0;
-    outline: none;
-    color: white;
-}
-
-::placeholder {
-    color: white;
-}
-
 body {
-    font-family: Roboto;
-    background-image: url(../img/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url("../img/fon.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1920px;
+	height: 1080px;
 }
 
-.anim-vert {
-    background-image: url(../img/vert.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 352px;
-    width: 518px;
-    top: 126px;
-    left: 100px;
-    position: absolute;
+.logo-pic {
+	position: fixed;
+	width: 7%;
+	height: 10%;
+	top: 27%;
+	left: 24%;
+	transform: translate(-50%, -50%);
 }
 
-.anim-vert2 {
-    background-image: url(../img/vert.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 352px;
-    width: 518px;
-    top: 126px;
-    left: 100px;
-    position: absolute;
+.logo-pic-t {
+	color: white;
+	font-size: 28px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-style: italic;
 }
 
-#reg {
-    display: none;
+.gta-div {
+	position: fixed;
+	top: 21%;
+	left: 29%;
 }
 
-.auth-block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
+.gta-div2 {
+	position: fixed;
+	top: 24%;
+	left: 32%;
 }
 
-.auth__header {
-    font-weight: 900;
-    font-size: 39px;
-    text-align: center;
-    letter-spacing: 0.18em;
-    color: #534D56;
-    margin-bottom: 40px;
+.gta5div-name {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-size: 28px;
 }
 
-.auth__input {
-    width: 582px;
-    height: 95px;
-    background: #534D56;
-    border-radius: 50px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-weight: 500;
-    font-size: 22px;
-    letter-spacing: 0.12em;
-    color: #FFFFFF;
-
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: 90px;
-
-    margin-bottom: 25px;
-    padding-left: 166px;
-    padding-right: 45px;
+.gta5div-name2 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
 }
 
-.auth-links {
-    display: flex;
-    align-items: center;
-    width: 580px;
-    justify-content: space-between;
+.button-user {
+	position: fixed;
+	top: 53%;
+	left: 76%;
+	transform: translate(-50%, -50%);
 }
 
-.auth-links p {
-    color: #534D56;
-    font-weight: 500;
-    display: flex;
+.button-passwd {
+	position: fixed;
+	top: 63%;
+	left: 76%;
+	transform: translate(-50%, -50%);
 }
 
-.auth__link {
-    color: #FF7DBB;
-    border-bottom: 1px solid #FF7DBB;
-    width: 76px;
-    display: block;
-    margin-left: 3px;
-    transition: 0.4s;
+.button-login {
+	position: fixed;
+	top: 76%;
+	left: 76%;
+	transform: translate(-50%, -50%);
 }
 
-.auth__link:hover {
-    transition: 0.4s;
-    padding-left: 3px;
+.text1 {
+	font-size: 32px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	float: left;
+	margin-right: 10px; 
 }
 
-.auth-usr {
-    background-image: url(../img/user-ic.svg);
+.text2 {
+	font-size: 14px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
 }
 
-.auth-email {
-    background-image: url(../img/email-ic.svg);
+.main-text {
+	top: 32%;
+	left: 63%;
+	width: 550px;
+	height: 60px;
+	position: fixed;
 }
 
-.auth-key {
-    background-image: url(../img/key-ic.svg);
+.main-text2 {
+	top: 25%;
+	left: 63%;
+	width: 550px;
+	height: 60px;
+	position: fixed;
 }
 
-.auth__btn {
-    height: 79px;
-    background: #FF7DBB;
-    border-radius: 15px;
-    border: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 27px;
-    transition: 1s;
-    color: white;
+.vertical-part {
+	width: 0px;
+	height: 50px;
+	border: 1px solid white;
+	float: left;
+	margin-right: 10px; 
+}
+
+.vertical-part2 {
+	width: 0px;
+	height: 90px;
+	border: 1px solid white;
+	position: fixed;
+	top: 20%;
+	left: 28%;
+}
+
+.text-login {
+	position: fixed;
+	width: 380px;
+	left: 85%;
+	top: 49%;
+	font-size: 16px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	transform: translate(-50%, -50%);
+}
+
+.text-login-reg {
+	position: fixed;
+	width: 380px;
+	left: 85%;
+	top: 35%;
+	font-size: 16px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	transform: translate(-50%, -50%);
+}
+
+.text-email-reg {
+	position: fixed;
+	width: 380px;
+	left: 85%;
+	top: 44%;
+	font-size: 16px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	transform: translate(-50%, -50%);
+}
+
+.text-passwd-reg {
+	position: fixed;
+	width: 380px;
+	left: 85%;
+	top: 47%;
+	font-size: 16px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	transform: translate(-50%, -50%);
+}
+
+.text-passwd {
+	position: fixed;
+	width: 380px;
+	left: 85%;
+	top: 59%;
+	font-size: 16px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	transform: translate(-50%, -50%);
+}
+
+#register {
+	width: 340px;
+	height: 50px;
+	background: linear-gradient(to bottom right, #F09D0E, #F0CA0E);
+	border: 0px;
+	border-radius: 15px;
+	outline: none;
+	font-size: 18px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	position: fixed;
+	top: 76%;
+	left: 67%;
+}
+
+.main-login {
+	width: 340px;
+	height: 47px;
+	background-color: black;
+	opacity: 0.4;
+	text-align: center;
+	color: white;
+	border: none;
     font-size: 18px;
+    outline: none;
+    border-radius: 4px 15px 4px 15px;
 }
 
-.show__me {
-    display: none;
+.login-email {
+	position: fixed;
+	top: 45%;
+	left: 67%;
 }
 
-/* YOA - https://ragemp.pro/members/yoa.5637/ */
+.login-reg {
+	position: fixed;
+	top: 36%;
+	left: 67%;
+}
 
-/* VK - https://vk.com/id656441823 */
+.passwd-reg {
+	position: fixed;
+	top: 55%;
+	left: 67%;
+}
 
-/* Discord - henexy#0175 */
+.passwd-reg-reg {
+	position: fixed;
+	top: 61%;
+	left: 67%;
+}
+
+.promo {
+	position: fixed;
+	top: 68%;
+	left: 67%;
+}
+
+.text-passwd-reg1 {
+	position: fixed;
+	width: 380px;
+	left: 85%;
+	top: 54%;
+	font-size: 16px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	transform: translate(-50%, -50%);
+}
+
+.main-passwd {
+	width: 340px;
+	height: 47px;
+	background-color: black;
+	opacity: 0.4;
+	text-align: center;
+	color: white;
+	border: none;
+	border-radius: 4px 15px 4px 15px;
+    font-size: 18px;
+    outline: none;
+}
+
+.text-signup {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	opacity: 0.6;
+	font-size: 14px;
+}
+
+.text-signup-div {
+	position: fixed;
+	top: 65%;
+	left: 67%;
+	margin-top: 5px;
+}
+
+.text-back-div {
+	position: fixed;
+	top: 72%;
+	left: 67%;
+	margin-top: 5px;
+}
+
+.btn-enter {
+	width: 340px;
+	height: 50px;
+	background: linear-gradient(to bottom right, #F09D0E, #F0CA0E);
+	border: 0px;
+	border-radius: 15px 4px 15px 4px;
+	outline: none;
+	font-size: 18px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+.news {
+	width: 400px;
+	position: fixed;
+	top: 50%;
+	left: 17%;
+}
+
+.horizontal-part {
+	border: 1px solid white;
+	width: 225px;
+	position: fixed;
+	margin-top: -15px;
+	margin-left: 87px;
+}
+
+.news-header {
+	margin-top: -20px;
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Lato', sans-serif;
+}
+
+.news-text {
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 4px; 
+}
+
+.container {
+	width: 400px !important;
+	position: fixed;
+	top: 53%;
+	left: 17%;
+}
+
+#disabledBlock {
+	display: none;
+}
+
+.disabledblock {
+	display: none;
+}
+
+.enabledblock {
+	display: block;
+}
+
+@media screen and (max-height: 1024px) {
+	.main-text {top: 20%;}
+	.text-login {top: 30%;}
+	.text-passwd {top: 38%;}
+	.button-user {top: 33%;}
+	.button-passwd {top: 41%;}
+	.text-signup-div {top: 43%;}
+	.button-login {top: 50%;}
+}
