@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "ExoSoft-Light";
+    src: url("./assets/fonts/ExoSoft/ExoSoft-Light.ttf");
+}
+@font-face {
+    font-family: "ExoSoft-Medium";
+    src: url("./assets/fonts/ExoSoft/ExoSoft-Medium.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button:focus {
+    outline: unset;
+}
